@@ -98,6 +98,11 @@
     color: #B3B3B3;
 }
 /* ------------ donate plan section ---------------- */
+.donate-plan{
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
 .donate-details{
     background: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
