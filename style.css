@@ -97,3 +97,31 @@
     text-align: center;
     color: #B3B3B3;
 }
+/* ------------ donate plan section ---------------- */
+.donate-details{
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    width: 360px;
+    height: 352px;
+    padding: 20px;
+}
+.donate-details img{
+    width: 59px;
+    height: 50px;
+}
+.donate-details h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+}
+.donate-details p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+}
