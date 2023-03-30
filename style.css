@@ -202,3 +202,25 @@
     color: white;
     font-weight: 800;
 }
+/* ------------- footer ------------- */
+footer{
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+footer h2{
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #FF5959;
+}
+footer h3{
+    color: white;
+    margin: 20px 0;
+}
