@@ -24,7 +24,7 @@
     font-weight: 400;
 
 }
-.banner-section button{
+.donate-button{
     width: 160px;
     height: 56px;
     background-color: #FF5959;
@@ -34,4 +34,66 @@
     margin: 10px 0;
     font-weight: 700;
     font-size: 15px;
+}
+/* -------------- donate section ------------ */
+.donate-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.donate-section h2{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.donate-section p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 10px 0;
+}
+.taka-div{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.common-div{
+    margin: 0 20px;
+    background: #FAFAFA;
+    width: 135px;
+    height: 123px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.common-div h2{
+    color: #707070;
+    font-size: 30px;    
+}
+.uncommon-div{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+.uncommon-div h2 {    
+    color: #FF5959;
+}
+/* --------------------- btn div --------------- */
+.btn-div {
+    width: 765px ;
+    border-bottom:2px solid #DADADA;
+}
+.btn-div h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #B3B3B3;
 }
